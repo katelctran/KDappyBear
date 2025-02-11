@@ -18,7 +18,7 @@ elevation = window_height * 0.8
 game_images = {}
 framepersecond = 32
 pipeimage = 'pipe.png'
-background_image = 'background.jpg'
+background_image = 'KDackground.png'
 birdplayer_image = 'bird.png'
 sealevel_image = 'base.jfif'
 
@@ -133,7 +133,7 @@ game_images['background'] = pygame.image.load(background_image).convert_alpha()
 game_images['pipeimage'] = (pygame.transform.rotate(pygame.image.load(pipeimage).convert_alpha(), 180),
                             pygame.image.load(pipeimage).convert_alpha())
 
-print("WELCOME TO THE KDAPPY BIRD GAME")
+print("WELCOME TO THE KDAPPY BEAR GAME")
 print("Press space or enter to start the game")
 
 while True:

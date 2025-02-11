@@ -17,10 +17,10 @@ pygame.display.set_caption('KDappy Bird Game')
 elevation = window_height * 0.8
 game_images = {}
 framepersecond = 32
-pipeimage = 'pipe.png'
+pipeimage = 'dagger.png'
 background_image = 'KDackground.png'
 birdplayer_image = 'bird.png'
-sealevel_image = 'base.jfif'
+sealevel_image = 'white.png'
 
 def createPipe():
     offset = window_height / 3
